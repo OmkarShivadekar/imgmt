@@ -24,6 +24,13 @@
 		margin-top: 13px;
     	margin-left: 0px;
 	}
+	 body.modal-open {
+    	overflow: hidden;
+	}		
+	.select2-drop{
+		z-index: 100000;
+	}																																																																																																																																																																																																																																																																															
+
 </style>
 </head>
 <body>
@@ -146,7 +153,28 @@
 		      
 		      <div class="row-fluid">     
 		      
-		       <div class="span6">    
+		      <div class="span6">
+		             <div class="control-group">
+		              <label class="control-label">Product Type</label>
+		              <div class="controls">
+		                <select multiple  class="span8">
+		                  <option>First option</option>
+		                  <option selected>Second option</option>
+		                  <option>Third option</option>
+		                  <option>Fourth option</option>
+		                  <option>Fifth option</option>
+		                  <option>Sixth option</option>
+		                  <option>Seventh option</option>
+		                  <option>Eighth option</option>
+		                </select>
+		              </div>
+		            </div>
+	              </div> 
+	              
+		      
+		      
+		      
+		       <!-- <div class="span6">    
 		            <div class="control-group">
 		              <label class="control-label">Type</label>
 		              <div class="controls">
@@ -161,7 +189,7 @@
 		                  Inverter</label>
 		              </div>
 	              	</div>
-				</div>
+				</div> -->
 				
 					<div class="span5">
 		             <div class="control-group">
@@ -268,27 +296,70 @@
 <div id="addSeller" class="modal fade hide">
   <div class="modal-header">
     <button data-dismiss="modal" class="close" type="button">×</button>
-    <h3>Alert modal</h3>
+    <h3>Add New Seller</h3>
   </div>
+  <form action="#" method="get" class="form-horizontal">
   <div class="modal-body">
-    <p>Omkar Shivadekar</p>
+      <div class="control-group">
+        <label class="control-label">Seller Name :</label>
+        <div class="controls">
+          <input type="text" placeholder="Name" />
+        </div>
+      </div>
+      <div class="control-group">
+        <label class="control-label">Address :</label>
+        <div class="controls">
+          <textarea ></textarea>
+        </div>
+      </div>
+      <div class="control-group">
+        <label class="control-label">Contact No. :</label>
+        <div class="controls">
+          <input type="text" placeholder="Contact No." />
+        </div>
+      </div>
   </div>
   <div class="modal-footer"><a data-dismiss="modal" class="btn btn-inverse" href="#">Cancel</a> </div>
+  </form>
 </div>
 
 <!-- ========================================= Add Seller Modal End =================================== -->
+
+
 
 <!-- ========================================= Add Product Modal Start =================================== -->
 
 <div id="addProduct" class="modal fade hide">
   <div class="modal-header">
     <button data-dismiss="modal" class="close" type="button">×</button>
-    <h3>Alert modal</h3>
+    <h3>Add New Product</h3>
   </div>
+  <form action="#" method="get" class="form-horizontal">
   <div class="modal-body">
-    <p>Omkar Shivadekar</p>
+      <div class="control-group">
+        <label class="control-label">Product Name :</label>
+        <div class="controls">
+          <input type="text" placeholder="Name" />
+        </div>
+      </div>
+       <div class="control-group">
+         <label class="control-label">Product Type</label>
+         <div class="controls">
+           <select multiple style="width:66%;">
+             <option>First option</option>
+             <option selected>Second option</option>
+             <option>Third option</option>
+             <option>Fourth option</option>
+             <option>Fifth option</option>
+             <option>Sixth option</option>
+             <option>Seventh option</option>
+             <option>Eighth option</option>
+           </select>
+         </div>
+       </div>
   </div>
   <div class="modal-footer"><a data-dismiss="modal" class="btn btn-inverse" href="#">Cancel</a> </div>
+  </form>
 </div>
 
 <!-- ========================================= Add Product Modal End =================================== -->
@@ -311,6 +382,15 @@
 
 <script src="/js/matrix.tables.js"></script>
 <script src="/js/matrix.form_common.js"></script> 
+
+<script type="text/javascript">
+	$("#addProduct").on("show", function () {
+	  $("body").addClass("modal-open");
+	}).on("hidden", function () {
+	  $("body").removeClass("modal-open")
+	});
+
+</script>
 
 </body>
 </html>
