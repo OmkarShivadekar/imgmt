@@ -1,15 +1,15 @@
 <!--sidebar-menu-->
 <div id="sidebar"><a href="#" class="visible-phone"><i class="icon icon-home"></i> Omkar</a>
   <ul>
-    <li class="active"><a href="index.html"><i class="icon icon-home"></i> <span>Dashboard</span></a> </li>
+    <li class="active"><a href="/dashboard"><i class="icon icon-home"></i> <span>Dashboard</span></a> </li>
     <li class="submenu"> <a href="#"><i class="icon icon-th-list"></i> <span>Settings</span> <span class="label label-important">3</span></a>
       <ul>
-        <li><a href="/view/setting/addProductType.jsp">Add Product Type</a></li>
+        <li><a href="/setting/productType">Add Product Type</a></li>
         <li><a href="form-validation.html">Form with Validation</a></li>
         <li><a href="form-wizard.html">Form with Wizard</a></li>
       </ul>
     </li>
-    <li> <a href="/view/purchase/purchase.jsp"><i class="icon icon-signal"></i> <span>Purchase</span></a> </li>
+    <li> <a href="/purchase"><i class="icon icon-signal"></i> <span>Purchase</span></a> </li>
     <li> <a href="widgets.html"><i class="icon icon-inbox"></i> <span>Sale</span></a> </li>
     <li class="submenu"> <a href="#"><i class="icon icon-file"></i> <span>Reports</span> <span class="label label-important">5</span></a>
       <ul>

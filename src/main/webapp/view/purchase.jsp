@@ -37,7 +37,7 @@
 
 <!--Header-part-->
 <div id="header">
-  <h1><a href="dashboard.html">Matrix Admin</a></h1>
+  <h1><a href="/dashboard">Matrix Admin</a></h1>
 </div>
 <!--close-Header-part--> 
 
@@ -58,7 +58,7 @@
 <!--breadcrumbs-->
   <div id="content-header">
     <div id="breadcrumb">
-     <a href="/view/index.jsp" title="Go to Home" class="tip-bottom"><i class="icon-home"></i> Home</a>
+     <a href="/dashboard" title="Go to Home" class="tip-bottom"><i class="icon-home"></i> Home</a>
      <a href="#" class="current">Purchase Battery</a>
      </div>
   </div>

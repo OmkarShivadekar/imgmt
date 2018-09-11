@@ -19,7 +19,7 @@
 
 <!--Header-part-->
 <div id="header">
-  <h1><a href="dashboard.html">Matrix Admin</a></h1>
+  <h1><a href="/dashboard">Matrix Admin</a></h1>
 </div>
 <!--close-Header-part--> 
 
@@ -40,7 +40,7 @@
 <!--breadcrumbs-->
   <div id="content-header">
     <div id="breadcrumb">
-     <a href="/view/index.jsp" title="Go to Home" class="tip-bottom"><i class="icon-home"></i> Home</a>
+     <a href="/dashboard" title="Go to Home" class="tip-bottom"><i class="icon-home"></i> Home</a>
   	 <a href="#" >Settings</a>
      <a href="#" class="current">Add New Product Type</a>
      </div>
@@ -55,44 +55,14 @@
   		<div class="span6">
   			<div class="widget-box">
         <div class="widget-title"> <span class="icon"> <i class="icon-align-justify"></i> </span>
-          <h5>Personal-info</h5>
+          <h5>Product Type</h5>
         </div>
         <div class="widget-content nopadding">
           <form action="#" method="get" class="form-horizontal">
             <div class="control-group">
-              <label class="control-label">First Name :</label>
+              <label class="control-label">Product Type Name :</label>
               <div class="controls">
-                <input type="text" class="span11" placeholder="First name" />
-              </div>
-            </div>
-            <div class="control-group">
-              <label class="control-label">Last Name :</label>
-              <div class="controls">
-                <input type="text" class="span11" placeholder="Last name" />
-              </div>
-            </div>
-            <div class="control-group">
-              <label class="control-label">Password input</label>
-              <div class="controls">
-                <input type="password"  class="span11" placeholder="Enter Password"  />
-              </div>
-            </div>
-            <div class="control-group">
-              <label class="control-label">Company info :</label>
-              <div class="controls">
-                <input type="text" class="span11" placeholder="Company name" />
-              </div>
-            </div>
-            <div class="control-group">
-              <label class="control-label">Description field:</label>
-              <div class="controls">
-                <input type="text" class="span11" />
-                <span class="help-block">Description field</span> </div>
-            </div>
-            <div class="control-group">
-              <label class="control-label">Message</label>
-              <div class="controls">
-                <textarea class="span11" ></textarea>
+                <input type="text" class="span11" placeholder="Product Type Name" />
               </div>
             </div>
             <div class="form-actions">
