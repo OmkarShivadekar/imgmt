@@ -4,7 +4,7 @@
     <li class="active"><a href="/dashboard"><i class="icon icon-home"></i> <span>Dashboard</span></a> </li>
     <li class="submenu"> <a href="#"><i class="icon icon-th-list"></i> <span>Settings</span> <span class="label label-important">3</span></a>
       <ul>
-        <li><a href="/setting/productType">Add Product Type</a></li>
+        <li><a href="/productType">Add Product Type</a></li>
         <li><a href="form-validation.html">Form with Validation</a></li>
         <li><a href="form-wizard.html">Form with Wizard</a></li>
       </ul>
